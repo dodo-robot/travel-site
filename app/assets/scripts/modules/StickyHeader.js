@@ -2,12 +2,20 @@ import waypoint from '../../../../node_modules/waypoints/lib/noframework.waypoin
 
 class StickyHeader{
     constructor() {
+        this.lazyImages = document.getElementsByClassName("lazyload");
         this.siteHeader = document.getElementsByClassName("site-header");
         this.targetElement = document.getElementsByClassName("large-hero__title");
         this.pageSection = document.getElementsByClassName("page-section");
         this.headerLinks = document.getElementsByClassName("primary-nav");
         this.createHeaderWaypoint();
         this.createSectionWaypoint();
+        this.refreshPoint();
+    }
+
+    refreshPoint(){
+        Array.prototype.forEach.call(this.lazyImages, function(el) {  
+            el.onload = Waypoint.refreshAll();
+        });
     }
 
     createHeaderWaypoint(){
