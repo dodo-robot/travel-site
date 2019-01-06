@@ -94,8 +94,10 @@
     }
 
     /* begin equal height rules */
-
-    &--equal-height-at-medium {
+    /* we want to apply this rule only if the browser supports flesbox */
+    /* to do so we just need to add .flexbox selector so that modernizr */
+    /* can create check whether the browsers supports it */
+    .flexbox &--equal-height-at-medium {
         @mixin atMedium {
             display: flex;
         }
@@ -106,7 +108,7 @@
         } 
     }
 
-    &--equal-height-at-large {
+    .flexbox  &--equal-height-at-large {
         @mixin atLarge {
             display: flex;
         }
