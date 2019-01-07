@@ -1,8 +1,6 @@
 # travel-site
 
-this project is the end result for this udemy course
-
-[course on web development](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/learn/v4/overview)
+this project is the end result for [this udemy course](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/learn/v4/overview) 
 
 
 ## Features
