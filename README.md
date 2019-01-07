@@ -11,7 +11,7 @@ this project is the end result for this udemy course
 - CSS written following BEM methodology
 - PostCSS as css-preprocessor so to use nested css rules, mixins and variables
 - gulp for the automatic building of css, js and html and live monitoring
-- webpack to compile js modules so to use 'classes'
+- webpack to compile js modules so to use npm modules and custom modules
 - modernizr to detect browser features
 - gulp-svg-sprite to use sprite instead of multiple icons for better performance
 - gulp-svg2png to create png versions of icons for legacy browser
