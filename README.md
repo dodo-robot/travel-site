@@ -21,7 +21,7 @@ this project is the end result for [this udemy course](https://www.udemy.com/git
 
 clone the repository and from within the directory run
 
-``` gulp watch ```
+``` npm intall && gulp watch ```
 
 this command will trigger a task called 'watch' defined in the gulp/tasks/watch.js file.
 this task will open up a live instance of the site and will automatically reload changes to the page
