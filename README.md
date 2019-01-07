@@ -23,7 +23,7 @@ this project is the end result for this udemy course
 
 clone the repository and from within the directory run
 
-''' gulp watch '''
+``` gulp watch ```
 
 this command will trigger a task called 'watch' defined in the gulp/tasks/watch.js file.
 this task will open up a live instance of the site and will automatically reload changes to the page
@@ -32,7 +32,7 @@ this task will open up a live instance of the site and will automatically reload
 
 to create a deployable version of the site you just need to run
 
-''' gulp build '''
+``` gulp build ```
 
 this will lunch the 'build' command defined in gulp/tasks/build.js file 
 this will trigger all the necessary tasks to build a deployable version of the site
